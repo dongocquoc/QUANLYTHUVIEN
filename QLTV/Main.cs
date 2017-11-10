@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QLTV
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
+        }
+
+        private void ribbonBar1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
